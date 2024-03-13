@@ -3,13 +3,13 @@ import org.junit.jupiter.api.Test
 
 import org.junit.jupiter.api.Assertions.*
 
-class FchTest {
+class FechaTest {
 
-    var fecha : Fch = Fch(0, 0, 0)
+    var fecha : Fecha = Fecha(0, 0, 0)
 
     @BeforeEach
     fun setUp() {
-        fecha = Fch(21, 6, 2012)
+        fecha = Fecha(21, 6, 2012)
     }
 
     @Test
